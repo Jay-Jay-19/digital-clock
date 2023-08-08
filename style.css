@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url("https://wallpapercave.com/wp/wp1892089.jpg");
+  background-size: cover;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  overflow: hidden
+}
+
+h2{
+  margin-left: 150px;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.clock{
+  margin-left: 150px;
+  display: flex;
+}
+
+.clock div{
+  margin: 5px;
+  position: relative;
+}
+
+.clock span{
+  width: 100px;
+  height: 80px;
+  opacity: .8;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(225,225,225,0.3);
+}
+
+.clock .text{
+  height: 30px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+.clock #ampm{
+  font-size: 20px;
+
+}
